@@ -1,22 +1,14 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-const Slider = ({ defaultValue, min, max, step, onChange }) => {
-  const [value, setValue] = useState(defaultValue)
-
-  const handleChange = event => {
-    setValue(event.target.value)
-    onChange(value)
-  }
+const Slider = ({ value, min, max, step, onChange }) => {
+  const handleChange = event => onChange(event.target.value)
 
   return (
     <>
       <input
         className='slider has-output'
         type='range'
-        value={value}
-        min={min}
-        max={max}
-        step={step}
+        value={value} min={min} max={max} step={step}
         onChange={handleChange}
       />
       <output>{value}</output>
