@@ -12,4 +12,4 @@ See [changelog.md](changelog.md)
 
 ## License
 
-Pokedex is available as open source under the terms of the [MIT](LICENSE).
+Speech is available as open source under the terms of the [MIT](LICENSE).
