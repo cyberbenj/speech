@@ -6,7 +6,7 @@ const Textarea = ({ value, onChange }) => {
   return (
     <div className='control'>
       <textarea
-        className='textarea has-fixed-size'
+        className='textarea has-fixed-size-vertical'
         value={value}
         onChange={handleChange}
       />

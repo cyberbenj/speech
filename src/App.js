@@ -48,6 +48,7 @@ const App = () => {
   return (
     <section className='section'>
       <div className='container'>
+        <h1 className='title has-text-centered'>Speech</h1>
         <form>
           <div className='field'>
             <label className='label'>Message</label>
